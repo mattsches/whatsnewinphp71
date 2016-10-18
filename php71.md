@@ -10,6 +10,16 @@
 
 <!-- footer: PHP User Group Rheinhessen #44 (18.10.2016) -->
 
+## Zeitplan
+
+Release Zeitplan: [https://wiki.php.net/todo/php71](https://wiki.php.net/todo/php71)
+
+Aktuell: [PHP 7.1 Release Candidate 3](http://de.php.net/archive/2016.php#id2016-09-29-1) (Stand: 18.10.2016)
+
+Geplantes Release-Datum: Ende November 2016
+
+---
+
 ## Fehlerbehandlung 1/2
 
 ### [Catching Multiple Exception Types](https://wiki.php.net/rfc/multiple-catch)
