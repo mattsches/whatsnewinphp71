@@ -341,3 +341,5 @@ Die Artikel enthalten mehr und detailliertere Informationen.
 ---
 
 # Danke!
+
+<!-- footer: PHP User Group Rheinhessen #44 (18.10.2016) -->
