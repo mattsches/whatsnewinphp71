@@ -8,6 +8,8 @@
 
 ---
 
+<!-- footer: PHP User Group Rheinhessen #44 (18.10.2016) -->
+
 ## Fehlerbehandlung 1/2
 
 ### [Catching Multiple Exception Types](https://wiki.php.net/rfc/multiple-catch)
@@ -341,5 +343,3 @@ Die Artikel enthalten mehr und detailliertere Informationen.
 ---
 
 # Danke!
-
-<!-- footer: PHP User Group Rheinhessen #44 (18.10.2016) -->
