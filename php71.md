@@ -1,14 +1,14 @@
 <!-- $theme: default -->
 
-# What's new in *PHP 7.1*
+# Was ist neu in *PHP 7.1*
 
-## PHP Unconference 2016
+## PHP User Group Rheinhessen 44
 
 ### Matthias Gutjahr (@mattsches)
 
 ---
 
-## Error handling 1/2
+## Fehlerbehandlung 1/2
 
 ### [Catching Multiple Exception Types](https://wiki.php.net/rfc/multiple-catch)
 
@@ -35,7 +35,7 @@ catch (Foo $e) {
 
 ---
 
-## Error handling 2/2
+## Fehlerbehandlung 2/2
 
 ### [Throw Error in Extensions](https://wiki.php.net/rfc/throw_error_in_extensions)
 
@@ -55,14 +55,14 @@ try {
 < 7.1:
 ```
 Fatal error: Invalid serialization data for DateTime \
-object in … on line 5
+object in âŚ on line 5
 
 Process exited with code 255.
 ```
 
 ---
 
-## Types 1/3
+## Typen 1/3
 
 ### [Nullable types](https://wiki.php.net/rfc/nullable_types)
 
@@ -89,7 +89,7 @@ var_dump(my_function(10, null)); // NULL
 
 ---
 
-## Types 2/3
+## Typen 2/3
 
 ### Void Return Type
 
@@ -115,7 +115,7 @@ function returns_a_value() : void
 
 ---
 
-## Types 3/3
+## Typen 3/3
 
 ### [Iterable](https://wiki.php.net/rfc/iterable)
 
@@ -216,7 +216,7 @@ var_dump(MyClass::MY_PRIVATE);
 // private const MyClass::MY_PRIVATE
 ```
 
-[🔗 3v4l.org](https://3v4l.org/uvAuD)
+[đ 3v4l.org](https://3v4l.org/uvAuD)
 
 ---
 
@@ -277,11 +277,11 @@ class MyClass
 $obj = new MyClass();
 $obj->foo();
 ```
-In PHP 7.1, it throws a `Fatal error: Uncaught Error: Cannot re-assign $this in …`.
+In PHP 7.1, it throws a `Fatal error: Uncaught Error: Cannot re-assign $this in âŚ`.
 
 ---
 
-## [Replace “Missing argument” warning with “Too few arguments” exception](https://wiki.php.net/rfc/too_few_args)
+## [Replace "Missing argument" warning with "Too few arguments" exception](https://wiki.php.net/rfc/too_few_args)
 
 ```php
 function my_function($a, $b)
@@ -294,15 +294,15 @@ my_function(10);
 ```
 Warning: Missing argument 2 for my_function(), called
 
-Notice: Undefined variable: b in … on line 4
+Notice: Undefined variable: b in âŚ on line 4
 int(10)
 NULL
 ```
 7.1:
 ```
 Fatal error: Uncaught ArgumentCountError: Too few
-arguments to function my_function(), 1 passed in … 
-on line 7 and exactly 2 expected in …
+arguments to function my_function(), 1 passed in âŚ 
+on line 7 and exactly 2 expected in âŚ
 ```
 
 ---
@@ -325,19 +325,19 @@ int(123)
 ```
 7.1:
 ```
-Warning: Cannot call extract() dynamically in … on line
-Notice: Undefined variable: a in … on line 9
+Warning: Cannot call extract() dynamically in âŚ on line
+Notice: Undefined variable: a in âŚ on line 9
 NULL
 ```
 
 ---
 
-## Acknowledgment
+## Hinweis
 
-Most examples taken from [Pascal Martin](https://twitter.com/pascal_martin)s excellent series about PHP 7.1: [https://blog.pascal-martin.fr/post/php71-en-introduction-and-release-cycle.html](https://blog.pascal-martin.fr/post/php71-en-introduction-and-release-cycle.html)
+Die meisten Beispiele stammen aus [Pascal Martin](https://twitter.com/pascal_martin)s exzellenter Artikelserie über PHP 7.1: [https://blog.pascal-martin.fr/post/php71-en-introduction-and-release-cycle.html](https://blog.pascal-martin.fr/post/php71-en-introduction-and-release-cycle.html)
 
-Read his posts for more detailed and additional information.
+Die Artikel enthalten mehr und detailliertere Informationen.
 
 ---
 
-# Thanks!
+# Danke!
